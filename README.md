@@ -57,22 +57,16 @@ const API_KEY = "YOUR_API_KEY_HERE";
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Tolera314/weather-app.git
 cd weather-app
 ```
 
-### Open in Browser
-
-If you’re using `index.html`, simply open it in your browser.
-
-### TypeScript Build (Optional)
-
-If you're working with TypeScript:
-
 ```bash
-tsc main.ts
+npm install
 ```
-
+```bash
+npm run dev
+```
 ## 📌 Best Practices
 
 - Use environment variables or `.env` files with bundlers like Webpack/Vite for API key safety in production.
